@@ -1,0 +1,124 @@
+/* 
+Victor Toth
+style.css
+
+Since <style> section is CSS, use this style of comments.
+*/
+
+/* Setting the background colour to something that goes well with mushrooms, all text is aligned centre */
+body {background-color: #4f555e; text-align: center;}	
+
+/* Main title text styles: 
+https://www.w3schools.com/css/css_text.asp
+*/
+h1 {
+	color: rgb(255, 255, 255); 
+	font: 60px Arial, sans-serif;
+	margin: 25px;
+    text-shadow: 2px 2px 8px #2c2c2c;
+} 
+
+/* Subtitle text styles: 
+The text shadow is actually really cool. I tried not to over use it.
+https://www.w3schools.com/css/css_text_shadow.asp
+*/
+h2 {
+	color: #ffffff; 
+	font: 25px Arial, sans-serif; 
+	text-shadow: 2px 2px 8px #2c2c2c;
+} 
+
+/* Image caption text styles: */
+h3 {
+	color: WhiteSmoke; 
+	font: italic 16px Arial, sans-serif;
+	margin-block-start: 0em;
+	margin-block-end: 0.5em;
+	text-shadow: 2px 2px 4px #2E2E2E;
+} 
+
+/* Disclaimer text styles: */
+h4 {
+	border:3px; 
+	border-radius: 20px;
+	border-style:dashed; 
+	padding: 1em;
+	border-color:#a60000;
+	color: #a60000; 
+	font: 14px Arial, sans-serif; 
+	font-weight: bold;
+}
+
+/* Button text styles: */
+h5 {	
+	color: WhiteSmoke; 
+	font: 18px Arial, sans-serif;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+    text-decoration: none;
+} 
+
+/* Paragraph text styles: */
+p {
+	color: #000000; 
+	font: 12px Arial, sans-serif; 
+	margin-block-start: 0em;
+	margin-block-end: 0.5em;
+} 
+
+
+/* Images styling: Display at 55% page width and a maximum width of native resolution of 800px 
+This allows the images to look good on desktop and mobile devices.
+https://www.w3schools.com/css/css_rwd_images.asp
+Setting a curved border on the pictures to match with the website theme and other elements.
+*/
+img {
+	width: 90%;
+    height: auto;
+	border-radius: 5px;
+}
+
+
+/* Button styling section, controls colours of button.
+button1 is used for page navigation on the website.
+https://www.w3schools.com/css/css3_buttons.asp
+*/
+.button1 {
+  background-color: #333333; 
+  color: WhiteSmoke; 
+  border: 1px solid WhiteSmoke;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+/* Button styling section, controls colours of button when hovering over it */
+.button1:hover {
+  background-color: #1acece;
+  color: white;
+}
+
+/* Button styling section, controls colours of button 
+button2 is used for external links on page2.html
+*/
+.button2 {
+  background-color: #847E6F; 
+  color: WhiteSmoke; 
+  border: 2px solid WhiteSmoke;
+  border-radius: 10px;
+  padding: 10px 15px;
+  text-align: center;
+  font: 16px Arial, sans-serif; 
+  transition-duration: 0.5s;
+  }
+/* Button styling section, controls colours of button when hovering over it */
+.button2:hover {
+  background-color: #93D689;
+  color: white;
+}
+
+.buttonDiv {
+    border: 1px outset rgb(255, 255, 255);
+    background-color: none;
+    text-align: center;
+  }
